@@ -1,3 +1,4 @@
 # add anthing you want to exclude for version control
-#raw_data/
-#processed_data/
+# exclude everything
+raw_data/*
+processed_data/*
