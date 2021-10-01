@@ -1,4 +1,4 @@
 # add anthing you want to exclude for version control
-# exclude everything
+# exclude everything that is in the data folders
 raw_data/*
 processed_data/*
