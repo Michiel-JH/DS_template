@@ -11,9 +11,11 @@ This is a list of potential (not exhaustive) use cases:
 
 ## Workflow
 
-```
 The various folders naturally have different purposes in the journey towards creating a proper model.
 These are clarified in the figure below
+
+
+```
 
 ├── data
 │   ├── processed_data      <- The final, canonical data sets for modeling. Can contain excel files for smaller projects
