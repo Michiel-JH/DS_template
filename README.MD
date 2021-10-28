@@ -4,10 +4,18 @@ This folder structure is meant to provide your with a framework for structuring 
 This is a list of potential (not exhaustive) use cases:
 
 * Forecasting
+* Optimization
 * Classification
 * Outlier detection
 * Time series analyses
 * Clustering
+
+## How to use it
+
+Simple copy paste the following command in your terminal to create the folder stucture in your current director:
+```
+cookiecutter https://github.com/MichielWiel/DS_template
+```
 
 ## Workflow
 
