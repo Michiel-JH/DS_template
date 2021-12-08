@@ -1,20 +1,40 @@
 # {{cookiecutter.project_name}}
 
-
-# Introduction
-
-The project is about:
 {{cookiecutter.description}}
 
-# Getting Started
+## Installation
 
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+Install {{cookiecutter.project_name}} with npm
 
-1. Project structure
-2. Software dependencies
+```bash
+  > npm install {{cookiecutter.project_name}}
+  > cd {{cookiecutter.project_name}}
+```
+    
+## Usage/Examples
+In this section, the usage/examples on how to use your project can be outlined.
+
+```bash
+  (venv) /{{cookiecutter.project_name}}> python main.py 
+```
 
 
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  (venv) /{{cookiecutter.project_name}}> pytest
+```
 
 
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 
+## Appendix
+
+Any additional information goes here
