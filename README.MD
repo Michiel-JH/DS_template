@@ -1,50 +1,33 @@
 # Content
 
+This cookiecutter template is meant to provide your with a framework for structuring your modelling projects. 
 This readme contains the following sections
 
-1. Introduction
-2. How to start using it
-3. Relative path usage
-4. Folder structure
-5. Workflow
+1. How to start using it
+2. Relative path usage
+3. Folder structure
+4. Workflow
 
-## 1. Introduction
 
-This folder structure is meant to provide your with a framework for structuring your modeling projects. 
-This is a list of potential (not exhaustive) use cases:
-
-* Forecasting
-* Optimization
-* Classification
-* Outlier detection
-* Time series analyses
-* Clustering
-
-## 2. How to start using it
+## 1. How to start using it
 
 Simple copy paste the following command in your terminal to create the folder stucture in your current director:
+
 ```
 cookiecutter https://bitbucket.org/aimdeloittenl/mle_cookiecutter/src/main/
 ```
 
-## 3. Relative path usage
+## 2. Relative path usage
 
 To ease the adoption of your project code by someone else it is good practice to use a relative path as opposed to absolute paths.
-Using relative paths ensures someone else does not have to hardcode his/her path in the various scripts. 
+Using relative paths ensures someone else does not have to hardcode his/her path in the various scripts. An example is given below.
 
 ```
-Absolute path: "C:/aimdeloittenl/mle_cookiecutter/src/main/{{cookiecutter.project_name}}/src/modelling/analysis.py"
-relative path: "src/modelling/analysis.py"
+Absolute path: "C:/aimdeloittenl/mle_cookiecutter/src/main/{{cookiecutter.project_name}}/modelling/modelling_decisions.md"
+relative path: "modelling/modelling_decisions.md"
 ```
 
-## 4. Folder structure
-
-The folder structure supports the AI methodology. More information about it can be found here:
-The picture below depicts the necessary steps. The ones highlighted are included in the folder structure.
-
-![AI methodology](AI methodology.PNG)
-
-
+## 3. Folder structure
 
 ```
 
@@ -61,7 +44,7 @@ The picture below depicts the necessary steps. The ones highlighted are included
 |
 ├── modelling                       Folder to model data and save them
 │   |                               
-|   └── modeling_decisions.md       Place to reflect on hyperparameters, outliers, scope & technical limitations, model assumptions & sensitives and model explainability.
+|   └── modelling_decisions.md      Place to reflect on hyperparameters, outliers, scope & technical limitations, model assumptions & sensitives and model explainability.
 |
 ├── requirements.txt                The requirements file for reproducing the analysis environment. Generated with `pip freeze > requirements.txt`
 |
@@ -75,4 +58,7 @@ The picture below depicts the necessary steps. The ones highlighted are included
 
 ``` 
 
-## Workflow
+## 4. Workflow
+
+Depending on the size of the project the ETL process is done by an engineer or as a preprocessing step yourself. 
+![Folder structure workflow](workflow.jpeg)
