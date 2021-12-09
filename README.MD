@@ -48,7 +48,7 @@ relative path: "modelling/modelling_decisions.md"
 |
 ├── tests                           Folder to store tests that the models should adhere to
 |
-├── models                          Folder to store the final models
+├── models                          Folder to store the final model(s)
 |
 ├── requirements.txt                The requirements file for reproducing the analysis environment. Generated with `pip freeze > requirements.txt`
 |
