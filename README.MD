@@ -14,7 +14,7 @@ This readme contains the following sections
 Simple copy paste the following command in your terminal to create the folder stucture in your current director:
 
 ```
-cookiecutter https://bitbucket.org/aimdeloittenl/mle_cookiecutter/src/main/
+cookiecutter hhttps://github.com/MichielWiel/DS_template
 ```
 
 ## 2. Relative path usage
