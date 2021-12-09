@@ -38,13 +38,17 @@ relative path: "modelling/modelling_decisions.md"
 |   └── silver                      Data that is filtered and cleansed. Can contain excel files for smaller projects
 |   └── gold                        The final, business-level aggregated, canonical data sets for modelling. Can contain excel files for smaller projects
 |
-├── EDA                             Folder to do exploratory data analysis
-|
 ├── ETL                             Folder for ETL processes, maturing the data from bronze, to silver to gold. Can be done by analysts themselves in smaller projects (preprocessing)
+|
+├── EDA                             Folder to do exploratory data analysis
 |
 ├── modelling                       Folder to model data and save them
 │   |                               
-|   └── modelling_decisions.md      Place to reflect on hyperparameters, outliers, scope & technical limitations, model assumptions & sensitives and model explainability.
+|   └── modelling_decisions.md      Place to reflect on hyperparameters, outliers, scope & technical limitations, model assumption & explainability
+|
+├── tests                           Folder to store tests that the models should adhere to
+|
+├── models                          Folder to store the final models
 |
 ├── requirements.txt                The requirements file for reproducing the analysis environment. Generated with `pip freeze > requirements.txt`
 |
