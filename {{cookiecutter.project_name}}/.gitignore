@@ -1,5 +1,9 @@
 # add anthing you want to exclude for version control
 # exclude everything that is in the data folders
-bronze/*
-silver/*
-gold/*
+# data should not be kept in git
+data/*
+# jupyter notebooks are a nightmare on git
+*.ipynb
+# Office documents should not be kept in git
+*.docx
+*.pptx
